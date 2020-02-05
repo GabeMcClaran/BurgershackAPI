@@ -61,5 +61,6 @@ namespace burgershackapi.Repositories
             string sql = "DELETE FROM burgers WHERE id = @id";
             _db.Execute(sql, new { id });
         }
+        //changes
     }
 }
